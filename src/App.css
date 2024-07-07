@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+}
+
+.guessing-card {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 1;
+}
+
+.guessing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button, .reset-button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.feedback-alert {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-title-center {
+  text-align: center;
+}
