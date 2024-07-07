@@ -18,4 +18,12 @@ Develop a user-friendly guessing game application that challenges users to guess
 
 ### Visualization:
 
+![Visualization 1](images/guessing_game_start.png)
+
+![Visualization 2](images/guessing_game_win.png)
+
+![Visualization 2](images/guessing_game_end.png)
+
 ### Deployment:
+
+You can access the deployed Temperature Conversion Program here, [Guessing Game](https://prodigy-sd-02.vercel.app/).
